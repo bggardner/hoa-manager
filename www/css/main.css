@@ -1,0 +1,36 @@
+td {
+  vertical-align: middle;
+}
+thead th {
+  white-space: nowrap;
+}
+td .form-control, td .input-group-text {
+  padding-bottom: initial;
+  padding-top: initial;
+}
+input[type="number"] {
+  text-align: right;
+}
+input.form-control[type="date"] {
+  min-width: 10rem;
+}
+input[type="number"][name="amount"] {
+  min-width: 8rem;
+  text-align: right;
+}
+.btn {
+  white-space: nowrap;
+}
+.form-select[name="budget"] {
+  max-width: fit-content;
+}
+.dropup .dropdown-toggle::after {
+  margin-left: .5em;
+}
+#receivables *:not(tfoot) > tr > *:first-child,
+#parcels *:not(tfoot) > tr > *:first-child {
+  text-align: center;
+}
+#parcels td:nth-child(-n+4) {
+  white-space: nowrap;
+}
